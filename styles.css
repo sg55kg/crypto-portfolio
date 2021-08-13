@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+header {
+    background: rgb(21, 21, 21);
+    padding: 20px;
+}
+
+header > h2 {
+    color: coral;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 60px;
+    letter-spacing: 5px;
+}
+
+body {
+    background-color: rgb(21, 21, 21);
+}
+
+.Add-new {
+    background-color: rgb(30, 30, 30);
+    
+    padding: 50px 50px;
+    height: 400px;
+    border: 2px solid coral;
+}
+
+.Add-new > p {
+    color: coral;
+    padding: 8px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Add-new > input {
+    color: black;
+    background-color:floralwhite;
+    padding: 8px;
+    border-radius: 12px;
+    width: 300px
+}
+
+.button {
+    border: none;
+    padding: 10px 20px;
+    background-color: coral;
+    color: white; 
+    text-align: center;
+    margin: 2px 1px;
+    font-size: 20px;
+    border-radius: 12px;
+    transition-duration: .2s;
+    
+    margin-top: 15px;
+}
+
+.button:hover {
+    background-color: floralwhite;
+    color: coral;
+    cursor: pointer;
+}
+
+.view-portfolio {
+    background: rgb(30, 30, 30);
+    margin-top: 30px;
+    border: 2px solid coral;
+    
+    width: 460px;
+    float: left;
+
+}
+
+.view-portfolio > p {
+    color:blanchedalmond;
+}
+
+.view-portfolio > h2 {
+    color: blanchedalmond; 
+    padding: 20px 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+#hodl {
+    
+    color: floralwhite;
+    margin-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    
+}
+
+#hodl > #head {
+    font-size: 17px;
+}
+
+.charts-background {
+    background-color: rgb(30, 30, 30);
+    border: 2px solid coral;
+    float: right;
+    margin-top: 30px;
+    width: 65%;
+
+}
+
+#asset-title {
+    font-size: 40px;
+    color:coral;
+    font-family: 'Permanent Marker', cursive;
+    padding-left: 20px;
+    padding-top: 20px;
+  
+}
+
+.chartBox {
+    
+    width: 400px;
+    padding-bottom: 38px;
+    float: right;
+ 
+}
+
